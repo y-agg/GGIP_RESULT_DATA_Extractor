@@ -166,6 +166,6 @@ def main(link):
         Result=[frames,page]
         with open(link+'.json', "w") as x:
             x.write(json.dumps(Result, indent=1))
-link="020_BCA_3rd Sem Regular_Final Declared Result_December 2018"
-main(link)
+PDF_name="020_BCA_3rd Sem Regular_Final Declared Result_December 2018"
+main(PDF_name)
     
